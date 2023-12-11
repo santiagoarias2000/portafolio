@@ -1,0 +1,1453 @@
+/* latin */
+@font-face {
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 300;
+  src: local('ABeeZee Regular'), local('ABeeZee-Regular'), url(fonts/ABeeZee-Regular.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/OpenSans-Italic.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(fonts/OpenSans-Regular.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(fonts/OpenSans-BoldItalic.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/OpenSans-Bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow: hidden
+}
+
+.windowHeaderText,
+.dialogHeaderText,
+.dialogStatusBarText {
+  color: #0B3E71 !important;
+}
+
+.windowHeader,
+.windowHeaderHilite,
+.dialogHeader,
+.dialogHeaderHilite {
+  background-color: #bedff9;
+}
+
+.buttonOver {
+  box-shadow: 0 0 3px #999 inset !important;
+}
+
+.item_file {
+  height: auto !important;
+}
+
+.item_fileDisabled {
+  height: auto !important;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #0066ff;
+}
+
+.textItem, .textItemFocused, .textItemDisabled, .textItemError, .textItemHint{
+  border-radius: 7px;
+  border: 1px solid #bfbfbf !important;
+}
+
+span input.textItem, .textItemFocused, .textItemHint {
+  background:#ffffe1 !important;
+}
+
+.textItem_hidden,
+.textItem_hiddenOver,
+.textItem_hiddenDown,
+.textItem_hiddenDisabled,
+.textItem_hiddenSelected{
+  border: 0px;
+}
+
+.tallQuestionCell,
+.tallQuestionCellDark,
+.tallQuestionCellOver,
+.tallQuestionCellOverDark,
+.tallQuestionCellDisabled,
+.tallQuestionCellDisabledDark {
+  font-family: 'ABeeZee',Arial,Verdana,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  color: darkred;
+  border-bottom:1px solid #e2e2e2;
+}
+
+.tallAnswerCell,
+.tallAnswerCellDark,
+.tallAnswerCellOver,
+.tallAnswerCellOverDark,
+.tallAnswerCellDisabled,
+.tallAnswerCellDisabledDark {
+  font-family: 'ABeeZee',Arial,Verdana,sans-serif;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  color: darkblue;
+}
+
+.tallCellSelected,
+.tallCellSelectedDark,
+.tallCellSelectedOver,
+.tallCellSelectedOverDark{
+  background:#e1f5fb !important;
+}
+
+.tallErrorCell,
+.tallErrorCellDark,
+.tallErrorCellOver,
+.tallErrorCellOverDark,
+.tallErrorCellDisabled,
+.tallErrorCellDisabledDark {
+  font-family: 'ABeeZee',Arial,Verdana,sans-serif;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  color: black;
+  border:1px solid #d64949;
+}
+
+.tallErrorCellOver,
+.tallErrorCellOverDark {
+  background-color:#fff1a8;
+}
+
+.tallErrorCellDark {
+  background-color:#f7f7f7;
+}
+
+.tallErrorCellSelected,
+.tallErrorCellSelectedDark,
+.tallErrorCellSelectedOver,
+.tallErrorCellSelectedOverDark {
+  font-family: 'ABeeZee',Arial,Verdana,sans-serif;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  color: black;
+  border:1px solid #d64949;
+  background-color:#e1f5fb;
+}
+
+.persona_nombre {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-weight: 700;
+  color: #6a6c6f;
+  font-size: 14px;
+}
+
+.persona_iden {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  color: #707275;
+  font-size: 12px;
+}
+
+.sinuAnchor {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-size: 11px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.sinuAnchor:hover {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-size: 11px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sinuTitle {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  color: #454545;
+  font-size: 18px;
+}
+
+.sinuLog {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  overflow: auto;
+  border: 1px solid #c0c0c0;
+  background-color: #ffffe1;
+  font-size: 10px;
+  width: 250px;
+  height: 500px;
+  position: relative;
+  z-index: 300000;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  cursor: default;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #c0c0c0;
+}
+
+.sinuLang {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  overflow: hidden;
+  border: 1px solid #c0c0c0;
+  background-color: #ffffe1;
+  font-size: 10px;
+  width: 250px;
+  height: 500px;
+  position: relative;
+  z-index: 300000;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  cursor: default;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #c0c0c0;
+}
+
+.sinuLogDisabled {
+  display: none;
+}
+
+.sinuCopy {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #454545;
+  font-size: 11px;
+}
+
+.sinuVersion {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #454545;
+  font-size: 11px;
+}
+
+.aciesCopy {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 10px;
+  color: #999999;
+  font-size: 11px;
+}
+
+.sinuSeparator {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  color: #6a6c6f;
+  font-weight: 700;
+  text-align: left;
+  font-size: 13px;
+}
+
+.sinuConn {
+  font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+  font-weight: bold;
+  padding-right: 10px;
+  color: #454545;
+  font-size: 11px;
+}
+
+.sinuHelp {
+   font-family: 'ABeeZee', Arial, Verdana, tahoma, serif;
+   font-size: 9pt;
+   font-weight: normal;
+   padding: 10px;
+   border: 1px solid #e2e2e2;
+   background-color: #e1f5fb;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -khtml-border-radius: 5px;
+   -webkit-border-radius: 5px;
+}
+
+.sinuMnt {
+   font-family: 'Open Sans', Arial, Verdana, tahoma, serif;
+   font-size: 12pt;
+   color: #8b0000;
+   padding: 10px;
+   border: 1px solid #e2e2e2;
+   background-color: #ffffe1;
+   border-radius: 5px;
+   -moz-border-radius: 5px;
+   -khtml-border-radius: 5px;
+   -webkit-border-radius: 5px;
+}
+
+.sinuPickListCell,.sinuPickListCellSelected,.sinuPickListCellDisabled,.sinuPickListCellDisabledDark,.sinuPickListCellDark,.sinuPickListCellSelectedDark
+  {
+  font-family: 'Open Sans', Arial, Verdana, sans-serif;
+  font-size: 11px;
+  color: black;
+}
+
+.sinuPickListCell,.sinuPickListCellDark {
+  color: black;
+}
+
+.sinuPickListCellSelected,.sinuPickListCellSelectedDark {
+  color: black;
+  background: #faebb5;
+}
+
+.sinuPickListCellDisabled,.sinuPickListCellDisabledDark {
+  color: #aaaaaa;
+}
+
+.sinuBold {
+  font-weight: bold;
+  color: black;
+}
+
+.sinuUniNivel,
+.sinuUniNivelFocused,
+.sinuUniNivelDisabled,
+.sinuUniNivelError,
+.sinuUniNivelHint {
+  border-top:1px solid #abadb3;
+  border-left:1px solid #dbdfe5;
+  border-right:1px solid #dbdfe5;
+  border-bottom:1px solid #dbdfe5;
+  font-weight: bold;
+  color: black;
+  background-color: #c7d5ef;
+}
+
+.sinuUniPen,
+.sinuUniPenFocused,
+.sinuUniPenDisabled,
+.sinuUniPenError,
+.sinuUniPenHint {
+  border-top:1px solid #abadb3;
+  border-left:1px solid #dbdfe5;
+  border-right:1px solid #dbdfe5;
+  border-bottom:1px solid #dbdfe5;
+  font-weight: bold;
+  color: red;
+  background-color: #c7d5ef;
+}
+/*
+  Estilo formulario insf36 title
+*/
+.sinuUniPenFormTitle,
+.sinuUniPenFormTitleFocused,
+.sinuUniPenFormTitleDisabled,
+.sinuUniPenFormTitleError,
+.sinuUniPenFormTitleHint {
+  border:0px;
+  font-weight: bold;
+  color: #9a2e23;
+  font-size: 11px;
+}
+
+/*
+  Estilo formulario insf36 input text
+*/
+.sinuUniPenForm,
+.sinuUniPenFormFocused,
+.sinuUniPenFormDisabled,
+.sinuUniPenFormError,
+.sinuUniPenFormHint {
+  border:0px;
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+}
+
+.sinuOKFormTitle,
+.sinuOKFormTitleFocused,
+.sinuOKFormTitleDisabled,
+.sinuOKFormTitleError,
+.sinuOKFormTitleHint {
+  border:0px;
+  font-weight: normal;
+  color: #000000;
+  font-size: 11px;
+}
+
+/*
+  Estilo para la celda que debe ser resaltada.
+*/
+.sinuEstadoGridCell,.sinuEstadoGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #c7d5ef;
+}
+
+.sinuEstadoGridCellOver,.sinuEstadoGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #c7d5ef;
+}
+
+.sinuEstadoGridCellSelected,.sinuEstadoGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #c7d5ef;
+}
+
+.sinuEstadoGridCellSelectedOver,.sinuEstadoGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #c7d5ef;
+}
+
+.sinuEstadoGridCellDisabled,.sinuEstadoGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #c7d5ef;
+}
+
+/*
+  Estilo para la celda de riesgos de proyectos
+*/
+
+.sinuRiesgoAAGridCell,.sinuRiesgoAAGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.sinuRiesgoAAGridCellOver,.sinuRiesgoAAGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.sinuRiesgoAAGridCellSelected,.sinuRiesgoAAGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.sinuRiesgoAAGridCellSelectedOver,.sinuRiesgoAAGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+.sinuRiesgoAAGridCellDisabled,.sinuRiesgoAAGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #ff0000;
+  text-align: center;
+}
+
+/* */
+
+.sinuRiesgoAMGridCell,.sinuRiesgoAMGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FF6600;
+  text-align: center;
+}
+
+.sinuRiesgoAMGridCellOver,.sinuRiesgoAMGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FF6600;
+  text-align: center;
+}
+
+.sinuRiesgoAMGridCellSelected,.sinuRiesgoAMGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FF6600;
+  text-align: center;
+}
+
+.sinuRiesgoAMGridCellSelectedOver,.sinuRiesgoAMGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FF6600;
+  text-align: center;
+}
+
+.sinuRiesgoAMGridCellDisabled,.sinuRiesgoAMGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #FF6600;
+  text-align: center;
+}
+
+/* */
+
+.sinuRiesgoABGridCell,.sinuRiesgoABGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFC000;
+  text-align: center;
+}
+
+.sinuRiesgoABGridCellOver,.sinuRiesgoABGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFC000;
+  text-align: center;
+}
+
+.sinuRiesgoABGridCellSelected,.sinuRiesgoABGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFC000;
+  text-align: center;
+}
+
+.sinuRiesgoABGridCellSelectedOver,.sinuRiesgoABGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFC000;
+  text-align: center;
+}
+
+.sinuRiesgoABGridCellDisabled,.sinuRiesgoABGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #FFC000;
+  text-align: center;
+}
+
+/* */
+
+
+.sinuRiesgoMBGridCell,.sinuRiesgoMBGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
+.sinuRiesgoMBGridCellOver,.sinuRiesgoMBGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
+.sinuRiesgoMBGridCellSelected,.sinuRiesgoMBGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
+.sinuRiesgoMBGridCellSelectedOver,.sinuRiesgoMBGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
+.sinuRiesgoMBGridCellDisabled,.sinuRiesgoMBGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #FFFF00;
+  text-align: center;
+}
+
+
+/* */
+
+
+.sinuRiesgoBBGridCell,.sinuRiesgoBBGridCellDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #92D050;
+  text-align: center;
+}
+
+.sinuRiesgoBBGridCellOver,.sinuRiesgoBBGridCellOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #92D050;
+  text-align: center;
+}
+
+.sinuRiesgoBBGridCellSelected,.sinuRiesgoBBGridCellSelectedDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #92D050;
+  text-align: center;
+}
+
+.sinuRiesgoBBGridCellSelectedOver,.sinuRiesgoBBGridCellSelectedOverDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: black;
+  background-color: #92D050;
+  text-align: center;
+}
+
+.sinuRiesgoBBGridCellDisabled,.sinuRiesgoBBGridCellDisabledDark {
+  font-family: 'Open Sans', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: #808080;
+  background-color: #92D050;
+  text-align: center;
+}
+
+/* */
+
+#loading {
+  position: relative;
+  border: 0px solid #ccc;
+  position: absolute;
+  background: transparent;
+  left: 45%;
+  top: 40%;
+  padding: 2px;
+  height: auto;
+}
+
+#loading a {
+  color: #225588;
+}
+
+#loading .loadingIndicator {
+  font-family: 'Open Sans', Arial,verdana, sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  margin: 0;
+  color: #444;
+  height: auto;
+}
+
+#loadingTitle {
+  font: bold 13px tahoma, 'Open Sans', Arial, helvetica;
+}
+
+#loadingMsg {
+  font: normal 12px 'Open Sans', Arial, tahoma, sans-serif;
+}
+/* Calendar */
+.eventWindowStatus {
+  font-size: 9px;
+  background-color: #FA8072;
+  border: 1px solid #004D99;
+}
+
+.eventWindowStatusHeader {
+  font-size: 9px;
+  color: white;
+  background-color: #B22222;
+}
+
+.eventWindowStatusBody {
+  font-size: 9px;
+  background-color: #FA8072;
+  padding: 3px;
+}
+
+.eventWindowStatusResizer {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.errorCell,
+.errorCellDark,
+.errorCellOver,
+.errorCellOverDark,
+.errorCellSelected,
+.errorCellSelectedDark,
+.errorCellSelectedOver,
+.errorCellSelectedOverDark,
+.errorCellDisabled,
+.errorCellDisabledDark {
+    font-family:'Open Sans', Arial,Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #d64949; border-top:1px solid #d64949;
+    background-color:#d64949;
+}
+
+.advertenciaCell,
+.advertenciaCellDark,
+.advertenciaCellOver,
+.advertenciaCellOverDark,
+.advertenciaCellSelected,
+.advertenciaCellSelectedDark,
+.advertenciaCellSelectedOver,
+.advertenciaCellSelectedOverDark,
+.advertenciaCellDisabled,
+.advertenciaCellDisabledDark {
+    font-family:'Open Sans', Arial,Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #f56803; border-top:1px solid #f56803;
+    background-color:#f56803;
+}
+
+.informativoCell,
+.informativoCellDark,
+.informativoCellOver,
+.informativoCellOverDark,
+.informativoCellSelected,
+.informativoCellSelectedDark,
+.informativoCellSelectedOver,
+.informativoCellSelectedOverDark,
+.informativoCellDisabled,
+.informativoCellDisabledDark {
+    font-family:'Open Sans', Arial,Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #ffff00; border-top:1px solid #ffff00;
+    background-color:#ffff00;
+}
+
+.seguimientoCell,
+.seguimientoCellDark,
+.seguimientoCellOver,
+.seguimientoCellOverDark,
+.seguimientoCellSelected,
+.seguimientoCellSelectedDark,
+.seguimientoCellSelectedOver,
+.seguimientoCellSelectedOverDark,
+.seguimientoCellDisabled,
+.seguimientoCellDisabledDark {
+    font-family:'Open Sans', Arial,Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #68a5e3; border-top:1px solid #68a5e3;
+    background-color:#68a5e3;
+}
+
+.greenCell,
+.greenCellDark,
+.greenCellOver,
+.greenCellOverDark,
+.greenCellSelected,
+.greenCellSelectedDark,
+.greenCellSelectedOver,
+.greenCellSelectedOverDark,
+.greenCellDisabled,
+.greenCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #c7d5ef; border-top:1px solid #c7d5ef;
+    background-color:green;
+}
+
+.yellowCell,
+.yellowCellDark,
+.yellowCellOver,
+.yellowCellOverDark,
+.yellowCellSelected,
+.yellowCellSelectedDark,
+.yellowCellSelectedOver,
+.yellowCellSelectedOverDark,
+.yellowCellDisabled,
+.yellowCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #c7d5ef; border-top:1px solid #c7d5ef;
+    background-color:yellow;
+}
+
+.orangeCell,
+.orangeCellDark,
+.orangeCellOver,
+.orangeCellOverDark,
+.orangeCellSelected,
+.orangeCellSelectedDark,
+.orangeCellSelectedOver,
+.orangeCellSelectedOverDark,
+.orangeCellDisabled,
+.orangeCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #c7d5ef; border-top:1px solid #c7d5ef;
+    background-color:orange;
+}
+
+.redCell,
+.redCellDark,
+.redCellOver,
+.redCellOverDark,
+.redCellSelected,
+.redCellSelectedDark,
+.redCellSelectedOver,
+.redCellSelectedOverDark,
+.redCellDisabled,
+.redCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #c7d5ef; border-top:1px solid #c7d5ef;
+    background-color:red;
+}
+
+.blueCell,
+.blueCellDark,
+.blueCellOver,
+.blueCellOverDark,
+.blueCellSelected,
+.blueCellSelectedDark,
+.blueCellSelectedOver,
+.blueCellSelectedOverDark,
+.blueCellDisabled,
+.blueCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #c7d5ef; border-top:1px solid #c7d5ef;
+    background-color:lightblue;
+}
+
+.whiteCell,
+.whiteCellDark,
+.whiteCellOver,
+.whiteCellOverDark,
+.whiteCellSelected,
+.whiteCellSelectedDark,
+.whiteCellSelectedOver,
+.whiteCellSelectedOverDark,
+.whiteCellDisabled,
+.whiteCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:black;
+    border-bottom:1px solid #ffffff; border-top:1px solid #ffffff;
+    background-color:#ffffff;
+}
+
+.grayCell,
+.grayCellDark,
+.grayCellOver,
+.grayCellOverDark,
+.grayCellSelected,
+.grayCellSelectedDark,
+.grayCellSelectedOver,
+.grayCellSelectedOverDark,
+.grayCellDisabled,
+.grayCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:white;
+    border-bottom:1px solid #333333; border-top:1px solid #333333;
+    background-color:#333333;
+}
+
+.purpleCell,
+.purpleCellDark,
+.purpleCellOver,
+.purpleCellOverDark,
+.purpleCellSelected,
+.purpleCellSelectedDark,
+.purpleCellSelectedOver,
+.purpleCellSelectedOverDark,
+.purpleCellDisabled,
+.purpleCellDisabledDark {
+    font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:10px; text-overflow:ellipsis;
+    color:white;
+    border-bottom:1px solid #663495; border-top:1px solid #663495;
+    background-color:#663495;
+}
+
+
+.sectionTextItem {
+    font-family:'Open Sans', Arial,Verdana,sans-serif; font-size:12px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-decoration: underline;
+    color:darkred;
+}
+
+.sectionTextItemDisabled {
+    font-family:'Open Sans', Arial,Verdana,sans-serif; font-size:12px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    text-decoration: underline;
+    color:darkgray;
+}
+.circle-info {
+  color: #999;
+  width: 160px;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+}
+.circle-text {
+  color: #999;
+  width: 160px;
+  position: absolute;
+  top:90px;
+  text-align: center;
+  display: inline-block;
+}
+
+.errorCount {
+  font-family:'Open Sans', Arial,Verdana,sans-serif; font-size:12px;
+  font-weight: bold;
+  color:red;
+}
+
+.sinuSquareGridCell,.sinuSquareGridCellDark,
+.sinuSquareGridCellOver,.sinuSquareGridCellOverDark,
+.sinuSquareGridCellSelected,.sinuSquareGridCellSelectedDark,
+.sinuSquareGridCellSelectedOver,.sinuSquareGridCellSelectedOverDark,
+.sinuSquareGridCellDisabled,.sinuSquareGridCellDisabledDark {
+  font-family: 'ABeeZee', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  border:1px solid #b7b7b7;
+}
+
+.sinuComboGridCell,.sinuComboGridCellDark,
+.sinuComboGridCellOver,.sinuComboGridCellOverDark,
+.sinuComboGridCellSelected,.sinuComboGridCellSelectedDark,
+.sinuComboGridCellSelectedOver,.sinuComboGridCellSelectedOverDark,
+.sinuComboGridCellDisabled,.sinuComboGridCellDisabledDark {
+  font-family: 'ABeeZee', Arial, Verdana, Bitstream Vera Sans, sans-serif;
+  font-size: 11px;
+  border:1px solid #b7b7b7;
+  background:url("../sc/skins/Simplicity/images/pickers/comboBoxPicker.gif") right no-repeat;
+}
+
+.calendarNoEdit {
+  font-size:9px;
+  background-color: #d4d4d4;
+  border: 1px solid #004D99;
+}
+
+.calendarNoEditHeader {
+  font-size:9px; color: white;
+  background-color:#9d8f8f;
+}
+
+.calendarNoEditBody {
+  font-size: 9px;
+  background-color: #d4d4d4;
+  padding: 3px;
+}
+
+.calendarNoEditResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarGruNoEdit {
+  font-size:9px;
+  background-color: #f2eedf;
+  border: 1px solid #004D99;
+}
+
+.calendarGruNoEditHeader {
+  font-size:9px; color: white;
+  background-color:#9d8f8f;
+}
+
+.calendarGruNoEditBody {
+  font-size: 9px;
+  background-color: #f2eedf;
+  padding: 3px;
+}
+
+.calendarGruNoEditResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarFes {
+  font-size:9px;
+  background-color: #fff2fe;
+  border: 1px solid #004D99;
+}
+
+.calendarFesHeader {
+  font-size:9px; color: white;
+  background-color:#9d8f8f;
+}
+
+.calendarFesBody {
+  font-size: 9px;
+  background-color: #fff2fe;
+  padding: 3px;
+}
+
+.calendarFesResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarSinu,
+.calendarSinuWorkday {
+  font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+  color:black;
+  border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+  background-color:#fffffc;
+}
+
+.calendarSinuDisabled,
+.calendarSinuDark {
+  font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+  color:black;
+  border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+  background-color:#c2c397;
+}
+
+.calendarSinuDisabled {
+  background-color:gainsboro;
+}
+
+.calendarSinuWorkday {
+  background-color:#ffffbb;
+}
+
+.calendarSinuOver,
+.calendarSinuOverDark {
+  font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+  color:black;
+  border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+  background-color:#c0ffc0;
+}
+.calendarSinuCellSelected {
+  font-family:Verdana,Bitstream Vera Sans,sans-serif; font-size:11px;
+  color:black;
+  border-bottom:1px solid #a0a0a0; border-right:1px solid #a0a0a0;
+  background-color:#CCCCCC;
+}
+
+.calendarEvenProyecto {
+  font-size:9px;
+  background-color: #A4BCF0;
+  border: 1px solid #E8E8E8;
+}
+
+.calendarEvenProyectoHeader {
+  font-size:9px; color: white;
+  background-color:#4374E0;
+}
+
+.calendarEvenProyectoBody {
+  font-size: 9px;
+  background-color: #A4BCF0;
+  padding: 3px;
+}
+
+.calendarEvenProyectoResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarEvenPendiente {
+  font-size:9px;
+  background-color: #A4BCF0;
+  border: 1px solid #E8E8E8;
+}
+
+.calendarEvenPendienteHeader {
+  font-size:9px; color: white;
+  background-color:#4374E0;
+}
+
+.calendarEvenPendienteBody {
+  font-size: 9px;
+  background-color: #A4BCF0;
+  padding: 3px;
+}
+
+.calendarEvenPendienteResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarEvenIntCritica {
+  font-size:9px;
+  background-color: #DB5E57;
+  border: 1px solid #AA2B24;
+}
+
+.calendarEvenIntCriticaHeader {
+  font-size:9px; color: white;
+  background-color:#D3362D;
+}
+
+.calendarEvenIntCriticaBody {
+  font-size: 9px;
+  background-color: #DB5E57;
+  padding: 3px;
+}
+
+.calendarEvenIntCriticaResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarEvenIntMedia {
+  font-size:9px;
+  background-color: #F9AD2F;
+  border: 1px solid #915C04;
+}
+
+.calendarEvenIntMediaHeader {
+  font-size:9px; color: white;
+  background-color:#E49307;
+}
+
+.calendarEvenIntMediaBody {
+  font-size: 9px;
+  background-color: #F9AD2F;
+  padding: 3px;
+}
+
+.calendarEvenIntMediaResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.calendarEvenIntBaja {
+  font-size:9px;
+  background-color: #77AD6B;
+  border: 1px solid #3D6035;
+}
+
+.calendarEvenIntBajaHeader {
+  font-size:9px; color: white;
+  background-color:#5F9654;
+}
+
+.calendarEvenIntBajaBody {
+  font-size: 9px;
+  background-color: #77AD6B;
+  padding: 3px;
+}
+
+.calendarEvenIntBajaResizer{
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.google-visualization-table-table th, .google-visualization-table-table td , .google-visualization-table-table th{
+    height: 33px;
+    font-family: 'ABeeZee',Arial,Verdana,sans-serif;
+    font-size: 12px;
+}
+
+.google-visualization-table .gradient {
+    background-image: linear-gradient(to bottom,rgba(246,246,246,1) 0%,rgba(246,246,246,1) 30%,rgba(246,246,246,1) 60%,rgba(246,246,246,1) 100%);
+}
+
+div.google-visualization-tooltip {
+  border:solid 1px #CCCCCC!important;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  background-color: white;
+  position: absolute;
+  font-size:  6px !important;
+  padding: 0px;
+  margin:0!important;
+  z-index:999999999999;
+  width:130px!important;
+}
+
+div.google-visualization-tooltip > ul > li > span {
+  font-size:  9px !important;
+}
+
+g text{
+  font-size:  10px !important;
+}
+
+.alert-margin {
+  top: -4px!important;
+  padding-right: 70px;
+  position:relative !important;
+  float:right !important;
+}
+
+.alert-triangle-margin {
+   top: 0px!important;
+   left: 300px!important;
+   position:absolute !important;
+}
+
+.windows-block{
+  position: fixed !important;
+  left: 0px !important;
+  top: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 999999 !important;
+  background-image: url(../images/process_animation.gif);
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  padding: 0px !important;
+  margin-left: -50px;
+  background-color: rgba(189, 193, 189, 0.3);
+}
+
+.badge {
+    background: #F91B57;
+    border-color: #F91B57;
+    background-image: -webkit-linear-gradient(top, #FE5A85, #F91B57);
+    background-image: -moz-linear-gradient(top, #FE5A85, #F91B57);
+    background-image: -o-linear-gradient(top, #FE5A85, #F91B57);
+    background-image: linear-gradient(to bottom, #FE5A85, #F91B57);
+}
+
+.badge {
+   display: block;
+   position: absolute;
+   top: -5px;
+   right: 3px;
+   line-height: 16px;
+   height: 16px;
+   padding: 0 5px;
+   font-family: 'Open Sans', Arial, sans-serif;
+   color: white;
+   font-weight: bold;
+   text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+   border: 1px solid;
+   border-radius: 10px;
+   -moz-border-radius: 10px;
+   -khtml-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+   box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.img-circle {
+    border-radius: 50%;
+   -moz-border-radius: 50%;
+   -khtml-border-radius: 50%;
+   -webkit-border-radius: 50%;
+}
+
+.nodeGroupEval {
+  background-color: #3764A3;
+  font-weight: bold;
+  font-size:  12px !important;
+  color:#ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+/* Estilos calendario para agenda */
+.calendarEvenCalenAsistire {
+  font-size:9px;
+  background-color: #663495;
+  border: 1px solid #663495;
+}
+
+.calendarEvenCalenAsistireHeader {
+  font-size:9px; color: white;
+  background-color:#663495;
+}
+
+.calendarEvenCalenAsistireBody {
+  font-size: 9px;
+  background-color: #663495;
+  padding: 3px;
+  color: white;
+}
+
+.calendarEvenCalenAsistireResizer {
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+/* */
+
+.calendarEvenCalenNoAsistire {
+  font-size:9px;
+  background-color: #333333;
+  border: 1px solid #333333;
+}
+
+.calendarEvenCalenNoAsistireHeader {
+  font-size:9px; color: white;
+  background-color:#333333;
+}
+
+.calendarEvenCalenNoAsistireBody {
+  font-size: 9px;
+  background-color: #333333;
+  padding: 3px;
+  color: white;
+}
+
+.calendarEvenCalenNoAsistireResizer {
+  border-top:1px solid white;
+  border-bottom: 1px solid white;
+}
+
+/* */
+
+.calendarEvenCalenPendiente {
+  font-size:9px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.calendarEvenCalenPendienteHeader {
+  font-size:9px; color: black;
+  background-color:#ffffff;
+}
+
+.calendarEvenCalenPendienteBody {
+  font-size: 9px;
+  background-color: #ffffff;
+  padding: 3px;
+}
+
+.calendarEvenCalenPendienteResizer {
+  border-top:1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.nodeGroupSummaryStyle{
+	background-color: #ffffe2;
+  color: #000000;
+	font-size: 12px !important;
+  font-weight: bold;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+.nodeSummaryRowStylel{
+	background-color: #000000;
+  color: #ffffff;
+	font-size: 12px !important;
+  font-weight: bold;
+}
+
+.gwt-SplitLayoutPanel-HDragger {
+  background: #d0e4f6 url(../images/splitPanelThumb.png) center center no-repeat;
+  cursor: col-resize;
+}
+
+.gwt-SplitLayoutPanel-VDragger {
+  background: #d0e4f6 url(../images/splitPanelThumb.png) center center no-repeat;
+  cursor: row-resize;
+}
+
+.htmlPane-pnone {
+  pointer-events: none;
+}
+
+

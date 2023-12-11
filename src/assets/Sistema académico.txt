@@ -1,0 +1,356 @@
+ 
+	
+ 
+		
+Acceso al sistema
+*Usuario :*	
+ 
+*Clave :*	
+ 
+ 	
+No cerrar sesión
+
+	
+
+ 
+ 
+ 
+Entrar	
+
+ 
+ 
+
+Cambiar clave
+
+ 
+
+¿Olvidó su clave?
+
+ 
+		
+		
+		
+
+	
+
+ 
+
+ 	 
+
+ 
+ 
+ 
+ 
+ 
+Sistema académico
+
+Empresa :	
+UNIVERSIDAD SANTO TOMAS
+	<#>
+
+Perfil :	
+Alumno
+	<#>
+
+Idioma :	
+Español
+	<#>
+
+ 
+ 
+	Salir
+
+	
+
+ 
+ 
+ 
+ 
+messagePwd
+
+ 
+
+ 
+
+La clave debe contener Letras y números. Y debe contener mínimo 6 caracteres
+
+ 
+
+ 
+	*Alertas*
+
+		
+		
+		
+
+ 
+ 
+ 
+	
+	
+ 
+
+ 
+
+No hay objetos a mostrar.
+
+ 
+
+		
+		
+		
+
+ 
+ 
+ 
+ 
+ 
+SARA STHEFANIA ALBA ANDRADE
+
+1002364923
+
+ 
+ 
+
+	
+
+ 
+
+Proceso de Administración
+	
+Actualización de datos personales
+Proceso Financiero
+	
+Solicitud de Descuentos
+Proceso Matrícula Académica
+	
+Consulta de requisitos de matricula
+	
+Matrícula individual
+	
+Recibo de pago de matrícula y otros derechos
+	
+Consulta de estudiantes
+	
+Semáforo del estudiante
+	
+Plan de estudios individual
+	
+Historico de notas
+	
+Lista de Horario del Estudiante
+	
+Horario del estudiante
+	
+Horario de grupos por programa
+Proceso Notas
+	
+Notas registradas
+Proceso Novedades de Notas
+	
+Solicitud de novedades de notas
+Proceso Certificados
+	
+Solicitud de certificados para estudiantes
+Proceso Opciones de Grado
+	
+Evaluación de seguimiento opciones de grado
+	
+Evaluación final de opciones de grado
+	
+Consulta notas opciones de grado
+Proceso Grados
+	
+Programas extracurriculares por estudiante
+	
+Solicitud de grados 
+	
+Cargue de requisitos de grado
+Otros servicios
+	
+Pago en Línea
+	
+Turno de Matrícua Asignado
+Proceso de evaluación docente
+	
+Registro de encuestas estudiantes
+
+ 
+
+ 
+ 
+
+	
+
+ 
+
+Favoritos
+	
+Notas registradas
+	
+Recibo de pago de matrícula y otros derechos
+	
+Horario del estudiante
+
+ 
+
+ 
+ 
+ 
+ 
+ Inicio
+
+ 
+ 
+ Recibo de pago de matrícula y otros derechos	
+
+ Recibo de pago de matrícula	
+
+ 
+ 
+ 
+ 
+ 
+ 
+	
+
+ 
+ 
+ 
+ 
+ 
+					
+ 
+*Identificación :*	
+ 
+
+*IMPORTANTE:*
+Por favor, ingrese su número de identificación, presione el botón buscar
+y seleccione el recibo que desea descargar.
+
+Buscar
+
+ 
+ 
+ 
+Recibos
+
+ 
+ 
+ 
+	Imprimir
+
+	Descargar PDF
+
+ 
+ 
+	Actualizar Registros
+
+ 
+ 
+ 
+ 
+ 
+ind_pago
+
+	
+
+Cód. Período
+
+Tipo
+
+Valor a pagar
+
+Fecha límite de pago 
+
+Estado de pago
+
+Documento
+
+Número de recibo
+
+ 
+	
+20232
+	
+Matricula
+	
+$ 100.000,00 COP
+	
+03/10/2023
+	
+Matricula Pagada
+	
+1675030
+	
+ 
+ 
+	
+20232
+	
+Matricula
+	
+$ 5.182.100,00 COP
+	
+04/08/2023
+	
+Matricula Pagada
+	
+1655965
+	
+ 
+
+ 
+
+ 
+*1 a 2 de 2*
+
+*en 0.02 seg.*
+
+Preferencias :	
+ 
+	<#>
+
+	
+
+ 
+*Visión general*
+Recibo de pago de matrícula y otros derechos *(FINR17)*: Contenido...
+		
+		
+		
+
+	
+
+ 
+ 
+		
+		
+		
+
+	
+
+ 
+
+ 
+	
+
+ 
+ 
+© 2023 Acies
+
+Sistema académico
+
+[v4.0.1]
+
+Conectado a [*SAC*]
+
+Acies
+Usuario: 1002364923
+
+Conectado desde: 181.131.98.28:51041
+
+Inactividad: 1min 12seg / 15min 0seg
+
+Imprimir
+
