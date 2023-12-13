@@ -1,6 +1,9 @@
-.body {
-  background-color: #f5f5f5;
+#body {
+  background-color: #0062d3;
   color: #4e4e4e;
+}
+#main {
+  background-color: #0062d3;
 }
 
 .h1,
@@ -44,9 +47,9 @@
 
 .box-shadow,
 .card-blog,
-.work-box,
+.work_box,
 .service_box,
-.paralax-mf {
+.paralax_mf {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,11 +83,21 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  background-image: url("../../assets/imagen_inicio.jpg");
+  background-image: url("../../assets/SANTIAGO_DEV.jpg");
+}
+.bg_image_two {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-image: url("../../assets/SANTIAGO_DEV.jpg");
 }
 
 @media (max-width: 1024px) {
   .bg_image {
+    background-attachment: scroll;
+  }
+  .bg_image_two {
     background-attachment: scroll;
   }
 }
@@ -93,7 +106,7 @@
   background-color: #0078ff;
 }
 
-.overlay-mf {
+.overlay_mf {
   position: absolute;
   top: 0;
   left: 0px;
@@ -103,7 +116,7 @@
   opacity: 0.7;
 }
 
-.paralax-mf {
+.paralax_mf {
   position: relative;
   padding: 8rem 0;
 }
@@ -235,18 +248,18 @@
 .widget-sidebar .list-sidebar,
 .box-comments .list-comments,
 .blog-wrapper .post-meta ul,
-.list-ico,
+.list_ico,
 .socials ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
-.list-ico {
+.list_ico {
   line-height: 2;
 }
 
-.list-ico span {
+.list_ico span {
   color: #0078ff;
   margin-right: 10px;
 }
@@ -456,7 +469,7 @@
   letter-spacing: 1px;
 }
 .a_linklogo {
-  color: #cde1f8;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -823,9 +836,11 @@
 # About
 --------------------------------------------------------------*/
 .about_mf .box_shadow_full {
+  background-color: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .about_mf .about_img {
@@ -912,29 +927,30 @@
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
-.counter-box {
+.counter_box {
   color: #fff;
   text-align: center;
 }
 
 @media (min-width: 577px) {
-  .counter-box {
+  .counter_box {
     margin-bottom: 1.8rem;
   }
 }
 
-.counter-ico {
+.counter_ico {
   margin-bottom: 1rem;
 }
 
-.counter-ico .ico-circle {
+.counter_ico .ico_circle {
   height: 60px;
   width: 60px;
   line-height: 1.5;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
-.counter-num .counter {
+.counter_num .counter {
+  color: #fff;
   font-size: 2rem;
   margin-bottom: 0;
 }
@@ -942,54 +958,54 @@
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.work-box {
+.work_box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
 }
 
-.work-box:hover img {
+.work_box:hover img {
   transform: scale(1.3);
 }
 
-.work-img {
+.work_img {
   display: block;
   overflow: hidden;
 }
 
-.work-img img {
+.work_img img {
   transition: all 1s;
 }
 
-.work-content {
+.work_content {
   padding: 2rem 3% 1rem 4%;
 }
 
-.work-content .w-more {
+.work_content .w_more {
   color: #4e4e4e;
   font-size: 0.8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.work_content .w_more .w_ctegory {
   color: #0078ff;
 }
 
-.work-content .w-like {
+.work_content .w_like {
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
 }
 
-.work-content .w-like a {
+.work_content .w_like a {
   color: #0078ff;
 }
 
-.work-content .w-like .num-like {
+.work_content .w_like .num_like {
   font-size: 0.7rem;
 }
 
-.w-title {
+.w_title {
   font-size: 1.2rem;
 }
 
@@ -1142,18 +1158,18 @@
   padding: 4rem 0 0 0;
 }
 
-.contact-mf {
+.contact_mf {
   margin-top: 4rem;
 }
 
 @media (min-width: 767px) {
-  .contact-mf .box-pl2 {
+  .contact_mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
   }
 }
 
-.php-email-form .error-message {
+.php_email_form .error_message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1162,7 +1178,7 @@
   font-weight: 600;
 }
 
-.php-email-form .sent-message {
+.php_email_form .sent_message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1171,14 +1187,14 @@
   font-weight: 600;
 }
 
-.php-email-form .loading {
+.php_email_form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.php-email-form .loading:before {
+.php_email_form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1190,28 +1206,28 @@
   animation: animate-loading 1s linear infinite;
 }
 
-.php-email-form input,
-.php-email-form textarea {
+.php_email_form input,
+.php_email_form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.php-email-form input:focus,
-.php-email-form textarea:focus {
+.php_email_form input:focus,
+.php_email_form textarea:focus {
   border-color: #0078ff;
 }
 
-.php-email-form input {
+.php_email_form input {
   padding: 10px 15px;
 }
 
-.php-email-form textarea {
+.php_email_form textarea {
   padding: 12px 15px;
   margin-bottom: 0;
 }
 
-.php-email-form button[type="submit"] {
+.php_email_form button[type="submit"] {
   background: #0078ff;
   border: 0;
   padding: 10px 24px;
@@ -1219,7 +1235,7 @@
   transition: 0.4s;
 }
 
-.php-email-form button[type="submit"]:hover {
+.php_email_form button[type="submit"]:hover {
   background: #3393ff;
 }
 
