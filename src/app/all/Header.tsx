@@ -15,7 +15,7 @@ export default function Header() {
         <div className="container d-flex align-items-center justify-content-between">
           <h1 className={styles.logo}>
             <a className={styles.a_linklogo} href="/">
-              Portafolio dev
+              Portafolio
             </a>
           </h1>
 
@@ -50,23 +50,23 @@ export default function Header() {
                   className={`nav-link ${styles.a_link} ${styles.scrollto}`}
                   href="#work"
                 >
-                  Work
+                  Trabajos
                 </a>
               </li>
-              <li className={styles.li_navbar}>
+              {/* <li className={styles.li_navbar}>
                 <a
                   className={`nav-link ${styles.a_link} ${styles.scrollto}`}
                   href="#blog"
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li className={styles.li_navbar}>
                 <a
                   className={`nav-link ${styles.a_link} ${styles.scrollto}`}
                   href="#contact"
                 >
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>
