@@ -133,7 +133,7 @@
 }
 
 /*--/ Sections /--*/
-.sect-4 {
+.sect_4 {
   padding: 4rem 0;
 }
 
@@ -141,7 +141,7 @@
   padding-top: 4rem;
 }
 
-.sect-mt4 {
+.sect_mt4 {
   margin-top: 4rem;
 }
 
@@ -185,7 +185,6 @@
   font-size: 2rem;
   position: relative;
 }
-
 .title_left:before {
   content: "";
   position: absolute;
@@ -224,7 +223,7 @@
   display: inline-block;
 }
 
-.socials .ico-circle {
+.socials .ico_circle {
   height: 40px;
   width: 40px;
   font-size: 1.2rem;
@@ -235,7 +234,7 @@
   transition: all 500ms ease;
 }
 
-.socials .ico-circle:hover {
+.socials .ico_circle:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
@@ -263,6 +262,15 @@
   color: #0078ff;
   margin-right: 10px;
 }
+.list_ico a{
+  text-decoration: none;
+  color: #1b1b1b;
+  
+}
+.list_ico a:hover{
+  color: #0078ff;
+}
+
 
 /*------/ Ico Circle /------*/
 .ico_circle {
@@ -1154,7 +1162,7 @@
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.footer-paralax {
+.footer_paralax {
   padding: 4rem 0 0 0;
 }
 
