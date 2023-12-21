@@ -262,15 +262,13 @@
   color: #0078ff;
   margin-right: 10px;
 }
-.list_ico a{
+.list_ico a {
   text-decoration: none;
   color: #1b1b1b;
-  
 }
-.list_ico a:hover{
+.list_ico a:hover {
   color: #0078ff;
 }
-
 
 /*------/ Ico Circle /------*/
 .ico_circle {
@@ -854,7 +852,7 @@
 .about_mf .about_img {
   margin-bottom: 2rem;
 }
-.about_mf .about_p{
+.about_mf .about_p {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
 }

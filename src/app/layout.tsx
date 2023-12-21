@@ -24,6 +24,7 @@ export default function RootLayout({
       <link rel="shortcut icon" href="../assets/node_logo.png" type="image/x-icon" />
       <body className={`${inter.className}`}>{children}</body>
       <SpeedInsights />
+      <Analytics />
     </html>
   )
 }
